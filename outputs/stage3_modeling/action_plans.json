@@ -1,0 +1,1627 @@
+{
+  "student_level": {
+    "critical": [
+      {
+        "student_id": 1384,
+        "risk_rank": 1,
+        "dropout_risk_score": 0.9988237023353577,
+        "true_status": "Dropout",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "Tuition fees up to date",
+            "value": 0.0,
+            "shap_contribution": 1.2577530145645142,
+            "action": "Provide financial aid guidance; offer payment plan options"
+          },
+          {
+            "feature": "CR_Sem2",
+            "value": 0.0,
+            "shap_contribution": 0.9595003128051758,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "CR_Sem1",
+            "value": 0.0,
+            "shap_contribution": 0.3700598478317261,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Curricular units 2nd sem (approved)",
+            "value": 0.0,
+            "shap_contribution": 0.3087071180343628,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "Age at enrollment",
+            "value": 26.0,
+            "shap_contribution": 0.21256908774375916,
+            "action": "Connect with support resources for non-traditional students"
+          }
+        ],
+        "overall_recommendation": "Immediate intervention recommended: contact within 48 hours"
+      },
+      {
+        "student_id": 2454,
+        "risk_rank": 2,
+        "dropout_risk_score": 0.9987273812294006,
+        "true_status": "Dropout",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "Tuition fees up to date",
+            "value": 0.0,
+            "shap_contribution": 1.254695177078247,
+            "action": "Provide financial aid guidance; offer payment plan options"
+          },
+          {
+            "feature": "CR_Sem2",
+            "value": 0.0,
+            "shap_contribution": 0.8702901601791382,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Curricular units 2nd sem (approved)",
+            "value": 0.0,
+            "shap_contribution": 0.2997592091560364,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "CR_Sem1",
+            "value": 0.0,
+            "shap_contribution": 0.29647913575172424,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Unemployment rate",
+            "value": 15.5,
+            "shap_contribution": 0.23650051653385162,
+            "action": "Schedule an advisor consultation"
+          }
+        ],
+        "overall_recommendation": "Immediate intervention recommended: contact within 48 hours"
+      },
+      {
+        "student_id": 3883,
+        "risk_rank": 3,
+        "dropout_risk_score": 0.9979302883148193,
+        "true_status": "Dropout",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "Tuition fees up to date",
+            "value": 0.0,
+            "shap_contribution": 1.212202787399292,
+            "action": "Provide financial aid guidance; offer payment plan options"
+          },
+          {
+            "feature": "CR_Sem2",
+            "value": 0.0,
+            "shap_contribution": 0.9558344483375549,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "CR_Sem1",
+            "value": 0.0,
+            "shap_contribution": 0.3603604733943939,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Curricular units 2nd sem (approved)",
+            "value": 0.0,
+            "shap_contribution": 0.3041147291660309,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "EvalPressure_Sem2",
+            "value": 0.0,
+            "shap_contribution": 0.2374367117881775,
+            "action": "Schedule an advisor consultation"
+          }
+        ],
+        "overall_recommendation": "Immediate intervention recommended: contact within 48 hours"
+      },
+      {
+        "student_id": 1403,
+        "risk_rank": 4,
+        "dropout_risk_score": 0.9978781938552856,
+        "true_status": "Dropout",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "Tuition fees up to date",
+            "value": 0.0,
+            "shap_contribution": 1.2099618911743164,
+            "action": "Provide financial aid guidance; offer payment plan options"
+          },
+          {
+            "feature": "CR_Sem2",
+            "value": 0.0,
+            "shap_contribution": 0.8069623708724976,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Course",
+            "value": 9991.0,
+            "shap_contribution": 0.30970630049705505,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "CR_Sem1",
+            "value": 0.4,
+            "shap_contribution": 0.29305052757263184,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Age at enrollment",
+            "value": 31.0,
+            "shap_contribution": 0.2863272726535797,
+            "action": "Connect with support resources for non-traditional students"
+          }
+        ],
+        "overall_recommendation": "Immediate intervention recommended: contact within 48 hours"
+      },
+      {
+        "student_id": 4191,
+        "risk_rank": 5,
+        "dropout_risk_score": 0.9975265860557556,
+        "true_status": "Dropout",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "Tuition fees up to date",
+            "value": 0.0,
+            "shap_contribution": 1.2926212549209595,
+            "action": "Provide financial aid guidance; offer payment plan options"
+          },
+          {
+            "feature": "CR_Sem2",
+            "value": 0.0,
+            "shap_contribution": 0.756767749786377,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Mother's occupation",
+            "value": 0.0,
+            "shap_contribution": 0.4851207435131073,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Curricular units 2nd sem (approved)",
+            "value": 0.0,
+            "shap_contribution": 0.271984726190567,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "Unemployment rate",
+            "value": 7.6,
+            "shap_contribution": -0.2359694093465805,
+            "action": "Schedule an advisor consultation"
+          }
+        ],
+        "overall_recommendation": "Immediate intervention recommended: contact within 48 hours"
+      },
+      {
+        "student_id": 888,
+        "risk_rank": 6,
+        "dropout_risk_score": 0.9975186586380005,
+        "true_status": "Dropout",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "CR_Sem2",
+            "value": 0.0,
+            "shap_contribution": 1.2943328619003296,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Curricular units 2nd sem (approved)",
+            "value": 0.0,
+            "shap_contribution": 0.4587385654449463,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "CR_Sem1",
+            "value": 0.0,
+            "shap_contribution": 0.3397122919559479,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Unemployment rate",
+            "value": 15.5,
+            "shap_contribution": 0.25071024894714355,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "EvalPressure_Sem2",
+            "value": 0.0,
+            "shap_contribution": 0.24324670433998108,
+            "action": "Schedule an advisor consultation"
+          }
+        ],
+        "overall_recommendation": "Immediate intervention recommended: contact within 48 hours"
+      },
+      {
+        "student_id": 3476,
+        "risk_rank": 7,
+        "dropout_risk_score": 0.9974859952926636,
+        "true_status": "Dropout",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "CR_Sem2",
+            "value": 0.0,
+            "shap_contribution": 1.2864172458648682,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Curricular units 2nd sem (approved)",
+            "value": 0.0,
+            "shap_contribution": 0.5255307555198669,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "CR_Sem1",
+            "value": 0.0,
+            "shap_contribution": 0.28228864073753357,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Unemployment rate",
+            "value": 16.2,
+            "shap_contribution": 0.28188565373420715,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Age at enrollment",
+            "value": 41.0,
+            "shap_contribution": 0.268220454454422,
+            "action": "Connect with support resources for non-traditional students"
+          }
+        ],
+        "overall_recommendation": "Immediate intervention recommended: contact within 48 hours"
+      },
+      {
+        "student_id": 3961,
+        "risk_rank": 8,
+        "dropout_risk_score": 0.997468113899231,
+        "true_status": "Dropout",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "CR_Sem2",
+            "value": 0.0,
+            "shap_contribution": 1.0703848600387573,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Mother's occupation",
+            "value": 0.0,
+            "shap_contribution": 0.5087027549743652,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Curricular units 2nd sem (approved)",
+            "value": 0.0,
+            "shap_contribution": 0.4170849621295929,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "Unemployment rate",
+            "value": 7.6,
+            "shap_contribution": -0.29312199354171753,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "EvalPressure_Sem2",
+            "value": 0.0,
+            "shap_contribution": 0.2729111909866333,
+            "action": "Schedule an advisor consultation"
+          }
+        ],
+        "overall_recommendation": "Immediate intervention recommended: contact within 48 hours"
+      },
+      {
+        "student_id": 3987,
+        "risk_rank": 9,
+        "dropout_risk_score": 0.9974488615989685,
+        "true_status": "Dropout",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "Tuition fees up to date",
+            "value": 0.0,
+            "shap_contribution": 1.0211423635482788,
+            "action": "Provide financial aid guidance; offer payment plan options"
+          },
+          {
+            "feature": "CR_Sem2",
+            "value": 0.0,
+            "shap_contribution": 0.9109134674072266,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Curricular units 2nd sem (approved)",
+            "value": 0.0,
+            "shap_contribution": 0.3331444561481476,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "Age at enrollment",
+            "value": 39.0,
+            "shap_contribution": 0.2373972237110138,
+            "action": "Connect with support resources for non-traditional students"
+          },
+          {
+            "feature": "EvalPressure_Sem2",
+            "value": 0.0,
+            "shap_contribution": 0.2292848825454712,
+            "action": "Schedule an advisor consultation"
+          }
+        ],
+        "overall_recommendation": "Immediate intervention recommended: contact within 48 hours"
+      },
+      {
+        "student_id": 2455,
+        "risk_rank": 10,
+        "dropout_risk_score": 0.997199535369873,
+        "true_status": "Dropout",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "CR_Sem2",
+            "value": 0.0,
+            "shap_contribution": 1.2630687952041626,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Curricular units 2nd sem (approved)",
+            "value": 0.0,
+            "shap_contribution": 0.523267388343811,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "EvalPressure_Sem2",
+            "value": 0.0,
+            "shap_contribution": 0.2683950960636139,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "CR_Sem1",
+            "value": 0.0,
+            "shap_contribution": 0.2462978959083557,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Age at enrollment",
+            "value": 31.0,
+            "shap_contribution": 0.23209692537784576,
+            "action": "Connect with support resources for non-traditional students"
+          }
+        ],
+        "overall_recommendation": "Immediate intervention recommended: contact within 48 hours"
+      }
+    ],
+    "warning": [
+      {
+        "student_id": 1727,
+        "risk_rank": 205,
+        "dropout_risk_score": 0.6966440081596375,
+        "true_status": "Dropout",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "Curricular units 2nd sem (approved)",
+            "value": 0.0,
+            "shap_contribution": 0.3958708345890045,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "Previous qualification (grade)",
+            "value": 116.0,
+            "shap_contribution": 0.2932184934616089,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "Debtor",
+            "value": 1.0,
+            "shap_contribution": 0.28865134716033936,
+            "action": "Refer to financial counseling; explore debt restructuring options"
+          },
+          {
+            "feature": "Unemployment rate",
+            "value": 13.9,
+            "shap_contribution": 0.2769570052623749,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Curricular units 2nd sem (grade)",
+            "value": 0.0,
+            "shap_contribution": 0.2716076672077179,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          }
+        ],
+        "overall_recommendation": "Proactive monitoring recommended: monthly check-ins"
+      },
+      {
+        "student_id": 4174,
+        "risk_rank": 206,
+        "dropout_risk_score": 0.6904149055480957,
+        "true_status": "Dropout",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "CR_Sem2",
+            "value": 0.2,
+            "shap_contribution": 0.6479687690734863,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Age at enrollment",
+            "value": 39.0,
+            "shap_contribution": 0.3955605924129486,
+            "action": "Connect with support resources for non-traditional students"
+          },
+          {
+            "feature": "Curricular units 2nd sem (approved)",
+            "value": 1.0,
+            "shap_contribution": 0.2537115216255188,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "Gender",
+            "value": 1.0,
+            "shap_contribution": 0.16858594119548798,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Tuition fees up to date",
+            "value": 1.0,
+            "shap_contribution": -0.16214881837368011,
+            "action": "Provide financial aid guidance; offer payment plan options"
+          }
+        ],
+        "overall_recommendation": "Proactive monitoring recommended: monthly check-ins"
+      },
+      {
+        "student_id": 912,
+        "risk_rank": 207,
+        "dropout_risk_score": 0.6869264841079712,
+        "true_status": "Enrolled",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "CR_Sem1",
+            "value": 0.5,
+            "shap_contribution": 0.4854293763637543,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Gender",
+            "value": 1.0,
+            "shap_contribution": 0.2943494915962219,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Curricular units 2nd sem (grade)",
+            "value": 10.333333333333334,
+            "shap_contribution": 0.22655744850635529,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "Course",
+            "value": 9070.0,
+            "shap_contribution": -0.19585539400577545,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Tuition fees up to date",
+            "value": 1.0,
+            "shap_contribution": -0.18885289132595062,
+            "action": "Provide financial aid guidance; offer payment plan options"
+          }
+        ],
+        "overall_recommendation": "Proactive monitoring recommended: monthly check-ins"
+      },
+      {
+        "student_id": 1505,
+        "risk_rank": 208,
+        "dropout_risk_score": 0.6859943866729736,
+        "true_status": "Dropout",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "Tuition fees up to date",
+            "value": 0.0,
+            "shap_contribution": 1.4055416584014893,
+            "action": "Provide financial aid guidance; offer payment plan options"
+          },
+          {
+            "feature": "CR_Sem2",
+            "value": 0.8333333333333334,
+            "shap_contribution": -0.29310089349746704,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Curricular units 2nd sem (approved)",
+            "value": 0.0,
+            "shap_contribution": 0.2679955065250397,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "Admission grade",
+            "value": 162.2,
+            "shap_contribution": -0.2182236909866333,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "Age at enrollment",
+            "value": 18.0,
+            "shap_contribution": -0.2122589647769928,
+            "action": "Connect with support resources for non-traditional students"
+          }
+        ],
+        "overall_recommendation": "Proactive monitoring recommended: monthly check-ins"
+      },
+      {
+        "student_id": 3829,
+        "risk_rank": 209,
+        "dropout_risk_score": 0.6836495995521545,
+        "true_status": "Enrolled",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "CR_Sem2",
+            "value": 0.5,
+            "shap_contribution": 0.5186601877212524,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "CR_Sem1",
+            "value": 0.5,
+            "shap_contribution": 0.3778592050075531,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Course",
+            "value": 9773.0,
+            "shap_contribution": 0.2817809283733368,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Home_Support_Risk",
+            "value": 0.0490551216149362,
+            "shap_contribution": -0.2416994720697403,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Gender",
+            "value": 1.0,
+            "shap_contribution": 0.2368251532316208,
+            "action": "Schedule an advisor consultation"
+          }
+        ],
+        "overall_recommendation": "Proactive monitoring recommended: monthly check-ins"
+      },
+      {
+        "student_id": 2842,
+        "risk_rank": 210,
+        "dropout_risk_score": 0.6822100281715393,
+        "true_status": "Dropout",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "Tuition fees up to date",
+            "value": 0.0,
+            "shap_contribution": 1.9783892631530762,
+            "action": "Provide financial aid guidance; offer payment plan options"
+          },
+          {
+            "feature": "CR_Sem1",
+            "value": 0.5,
+            "shap_contribution": 0.5305850505828857,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "CR_Sem2",
+            "value": 0.8333333333333334,
+            "shap_contribution": -0.4323748052120209,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Curricular units 2nd sem (grade)",
+            "value": 13.125,
+            "shap_contribution": -0.3243286609649658,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "Admission grade",
+            "value": 115.2,
+            "shap_contribution": -0.15305759012699127,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          }
+        ],
+        "overall_recommendation": "Proactive monitoring recommended: monthly check-ins"
+      },
+      {
+        "student_id": 283,
+        "risk_rank": 211,
+        "dropout_risk_score": 0.6753289699554443,
+        "true_status": "Dropout",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "CR_Sem2",
+            "value": 0.3333333333333333,
+            "shap_contribution": 0.6743457913398743,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Gender",
+            "value": 1.0,
+            "shap_contribution": 0.23055869340896606,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "CR_Sem1",
+            "value": 0.0,
+            "shap_contribution": 0.21267206966876984,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Tuition fees up to date",
+            "value": 1.0,
+            "shap_contribution": -0.19959867000579834,
+            "action": "Provide financial aid guidance; offer payment plan options"
+          },
+          {
+            "feature": "Curricular units 2nd sem (approved)",
+            "value": 2.0,
+            "shap_contribution": 0.1842201054096222,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          }
+        ],
+        "overall_recommendation": "Proactive monitoring recommended: monthly check-ins"
+      },
+      {
+        "student_id": 2694,
+        "risk_rank": 212,
+        "dropout_risk_score": 0.6726573705673218,
+        "true_status": "Dropout",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "CR_Sem2",
+            "value": 0.3333333333333333,
+            "shap_contribution": 0.5471768975257874,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "CR_Sem1",
+            "value": 0.5,
+            "shap_contribution": 0.4480708837509155,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "GDP",
+            "value": 2.02,
+            "shap_contribution": 0.23416440188884735,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Gender",
+            "value": 1.0,
+            "shap_contribution": 0.21381251513957977,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Delta_CR",
+            "value": -0.1666666666666666,
+            "shap_contribution": 0.19798971712589264,
+            "action": "Schedule an advisor consultation"
+          }
+        ],
+        "overall_recommendation": "Proactive monitoring recommended: monthly check-ins"
+      },
+      {
+        "student_id": 152,
+        "risk_rank": 213,
+        "dropout_risk_score": 0.6716769337654114,
+        "true_status": "Graduate",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "Course",
+            "value": 9991.0,
+            "shap_contribution": 0.4459681212902069,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Age at enrollment",
+            "value": 27.0,
+            "shap_contribution": 0.3136536478996277,
+            "action": "Connect with support resources for non-traditional students"
+          },
+          {
+            "feature": "CR_Sem1",
+            "value": 0.6,
+            "shap_contribution": 0.24756121635437012,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "CR_Sem2",
+            "value": 0.6,
+            "shap_contribution": 0.1716715693473816,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Gender",
+            "value": 0.0,
+            "shap_contribution": -0.1682136505842209,
+            "action": "Schedule an advisor consultation"
+          }
+        ],
+        "overall_recommendation": "Proactive monitoring recommended: monthly check-ins"
+      },
+      {
+        "student_id": 3496,
+        "risk_rank": 214,
+        "dropout_risk_score": 0.6670271158218384,
+        "true_status": "Dropout",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "Tuition fees up to date",
+            "value": 0.0,
+            "shap_contribution": 0.9646043181419373,
+            "action": "Provide financial aid guidance; offer payment plan options"
+          },
+          {
+            "feature": "Age at enrollment",
+            "value": 35.0,
+            "shap_contribution": 0.33057406544685364,
+            "action": "Connect with support resources for non-traditional students"
+          },
+          {
+            "feature": "Curricular units 2nd sem (grade)",
+            "value": 16.0,
+            "shap_contribution": -0.3096912205219269,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "Course",
+            "value": 9003.0,
+            "shap_contribution": -0.19605642557144165,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Debtor",
+            "value": 1.0,
+            "shap_contribution": 0.18513070046901703,
+            "action": "Refer to financial counseling; explore debt restructuring options"
+          }
+        ],
+        "overall_recommendation": "Proactive monitoring recommended: monthly check-ins"
+      }
+    ],
+    "on_track": [
+      {
+        "student_id": 1686,
+        "risk_rank": 269,
+        "dropout_risk_score": 0.39882203936576843,
+        "true_status": "Dropout",
+        "predicted_status": "2",
+        "top_risk_factors": [
+          {
+            "feature": "CR_Sem1",
+            "value": 1.0,
+            "shap_contribution": -0.5014392733573914,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Mother's occupation",
+            "value": 0.0,
+            "shap_contribution": 0.4667463004589081,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Course",
+            "value": 8014.0,
+            "shap_contribution": -0.3273276090621948,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "CR_Sem2",
+            "value": 0.3333333333333333,
+            "shap_contribution": 0.3226456344127655,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Tuition fees up to date",
+            "value": 1.0,
+            "shap_contribution": -0.26665839552879333,
+            "action": "Provide financial aid guidance; offer payment plan options"
+          }
+        ],
+        "overall_recommendation": "On track: maintain current support level"
+      },
+      {
+        "student_id": 207,
+        "risk_rank": 270,
+        "dropout_risk_score": 0.39803484082221985,
+        "true_status": "Graduate",
+        "predicted_status": "2",
+        "top_risk_factors": [
+          {
+            "feature": "Mother's occupation",
+            "value": 0.0,
+            "shap_contribution": 0.4918166995048523,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "CR_Sem2",
+            "value": 0.8333333333333334,
+            "shap_contribution": -0.35985496640205383,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Curricular units 2nd sem (approved)",
+            "value": 0.0,
+            "shap_contribution": 0.32025590538978577,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "CR_Sem1",
+            "value": 0.8571428571428571,
+            "shap_contribution": -0.22562503814697266,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Course",
+            "value": 171.0,
+            "shap_contribution": -0.18732348084449768,
+            "action": "Schedule an advisor consultation"
+          }
+        ],
+        "overall_recommendation": "On track: maintain current support level"
+      },
+      {
+        "student_id": 243,
+        "risk_rank": 271,
+        "dropout_risk_score": 0.396610289812088,
+        "true_status": "Enrolled",
+        "predicted_status": "1",
+        "top_risk_factors": [
+          {
+            "feature": "CR_Sem1",
+            "value": 0.8333333333333334,
+            "shap_contribution": -0.33482930064201355,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "CR_Sem2",
+            "value": 0.3333333333333333,
+            "shap_contribution": 0.31181707978248596,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Home_Support_Risk",
+            "value": 0.0,
+            "shap_contribution": -0.2899174690246582,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Father's occupation",
+            "value": 5.0,
+            "shap_contribution": -0.19469834864139557,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Tuition fees up to date",
+            "value": 1.0,
+            "shap_contribution": -0.18880704045295715,
+            "action": "Provide financial aid guidance; offer payment plan options"
+          }
+        ],
+        "overall_recommendation": "On track: maintain current support level"
+      },
+      {
+        "student_id": 1605,
+        "risk_rank": 272,
+        "dropout_risk_score": 0.3941582143306732,
+        "true_status": "Graduate",
+        "predicted_status": "2",
+        "top_risk_factors": [
+          {
+            "feature": "CR_Sem2",
+            "value": 0.875,
+            "shap_contribution": -0.5423370599746704,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Delta_CR",
+            "value": -0.125,
+            "shap_contribution": 0.3853211998939514,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Unemployment rate",
+            "value": 13.9,
+            "shap_contribution": 0.24244017899036407,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Curricular units 2nd sem (approved)",
+            "value": 7.0,
+            "shap_contribution": -0.21479417383670807,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "CR_Sem1",
+            "value": 1.0,
+            "shap_contribution": -0.18390001356601715,
+            "action": "Schedule an advisor consultation"
+          }
+        ],
+        "overall_recommendation": "On track: maintain current support level"
+      },
+      {
+        "student_id": 2670,
+        "risk_rank": 273,
+        "dropout_risk_score": 0.39106833934783936,
+        "true_status": "Dropout",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "CR_Sem2",
+            "value": 0.8571428571428571,
+            "shap_contribution": -0.7287598252296448,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "CR_Sem1",
+            "value": 0.6666666666666666,
+            "shap_contribution": 0.4291969835758209,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Curricular units 2nd sem (approved)",
+            "value": 6.0,
+            "shap_contribution": -0.23650707304477692,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "Home_Support_Risk",
+            "value": 0.2269249225456283,
+            "shap_contribution": 0.23162776231765747,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Tuition fees up to date",
+            "value": 1.0,
+            "shap_contribution": -0.2207006812095642,
+            "action": "Provide financial aid guidance; offer payment plan options"
+          }
+        ],
+        "overall_recommendation": "On track: maintain current support level"
+      },
+      {
+        "student_id": 3750,
+        "risk_rank": 274,
+        "dropout_risk_score": 0.38994431495666504,
+        "true_status": "Enrolled",
+        "predicted_status": "1",
+        "top_risk_factors": [
+          {
+            "feature": "Course",
+            "value": 9991.0,
+            "shap_contribution": 0.475083589553833,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Age at enrollment",
+            "value": 37.0,
+            "shap_contribution": 0.4546642005443573,
+            "action": "Connect with support resources for non-traditional students"
+          },
+          {
+            "feature": "Tuition fees up to date",
+            "value": 1.0,
+            "shap_contribution": -0.23580770194530487,
+            "action": "Provide financial aid guidance; offer payment plan options"
+          },
+          {
+            "feature": "Admission grade",
+            "value": 110.0,
+            "shap_contribution": -0.1879308968782425,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "CR_Sem1",
+            "value": 0.4,
+            "shap_contribution": 0.1732344776391983,
+            "action": "Schedule an advisor consultation"
+          }
+        ],
+        "overall_recommendation": "On track: maintain current support level"
+      },
+      {
+        "student_id": 1416,
+        "risk_rank": 275,
+        "dropout_risk_score": 0.38888195157051086,
+        "true_status": "Dropout",
+        "predicted_status": "1",
+        "top_risk_factors": [
+          {
+            "feature": "Course",
+            "value": 9853.0,
+            "shap_contribution": 0.47159749269485474,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Home_Support_Risk",
+            "value": 0.033790458302257,
+            "shap_contribution": -0.2913980782032013,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Tuition fees up to date",
+            "value": 1.0,
+            "shap_contribution": -0.22156409919261932,
+            "action": "Provide financial aid guidance; offer payment plan options"
+          },
+          {
+            "feature": "CR_Sem1",
+            "value": 0.6666666666666666,
+            "shap_contribution": 0.2133903056383133,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Curricular units 2nd sem (approved)",
+            "value": 4.0,
+            "shap_contribution": -0.18901804089546204,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          }
+        ],
+        "overall_recommendation": "On track: maintain current support level"
+      },
+      {
+        "student_id": 759,
+        "risk_rank": 276,
+        "dropout_risk_score": 0.38701820373535156,
+        "true_status": "Graduate",
+        "predicted_status": "2",
+        "top_risk_factors": [
+          {
+            "feature": "Curricular units 2nd sem (approved)",
+            "value": 0.0,
+            "shap_contribution": 0.4885372221469879,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "Curricular units 2nd sem (grade)",
+            "value": 0.0,
+            "shap_contribution": 0.31235209107398987,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "CR_Sem2",
+            "value": 0.8333333333333334,
+            "shap_contribution": -0.24955911934375763,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Curricular units 2nd sem (evaluations)",
+            "value": 0.0,
+            "shap_contribution": 0.20283573865890503,
+            "action": "Encourage attendance and assignment completion; provide structured check-ins"
+          },
+          {
+            "feature": "Tuition fees up to date",
+            "value": 1.0,
+            "shap_contribution": -0.1887616217136383,
+            "action": "Provide financial aid guidance; offer payment plan options"
+          }
+        ],
+        "overall_recommendation": "On track: maintain current support level"
+      },
+      {
+        "student_id": 2247,
+        "risk_rank": 277,
+        "dropout_risk_score": 0.3861602544784546,
+        "true_status": "Graduate",
+        "predicted_status": "2",
+        "top_risk_factors": [
+          {
+            "feature": "Delta_CR",
+            "value": -0.1388888888888888,
+            "shap_contribution": 0.3576500415802002,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Age at enrollment",
+            "value": 27.0,
+            "shap_contribution": 0.33278974890708923,
+            "action": "Connect with support resources for non-traditional students"
+          },
+          {
+            "feature": "Curricular units 2nd sem (approved)",
+            "value": 7.0,
+            "shap_contribution": -0.24242407083511353,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          },
+          {
+            "feature": "GDP",
+            "value": 3.51,
+            "shap_contribution": 0.21715177595615387,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Course",
+            "value": 9085.0,
+            "shap_contribution": -0.17696058750152588,
+            "action": "Schedule an advisor consultation"
+          }
+        ],
+        "overall_recommendation": "On track: maintain current support level"
+      },
+      {
+        "student_id": 1961,
+        "risk_rank": 278,
+        "dropout_risk_score": 0.38513389229774475,
+        "true_status": "Dropout",
+        "predicted_status": "0",
+        "top_risk_factors": [
+          {
+            "feature": "Tuition fees up to date",
+            "value": 0.0,
+            "shap_contribution": 1.7141448259353638,
+            "action": "Provide financial aid guidance; offer payment plan options"
+          },
+          {
+            "feature": "CR_Sem2",
+            "value": 1.0,
+            "shap_contribution": -0.553809642791748,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "CR_Sem1",
+            "value": 1.0,
+            "shap_contribution": -0.32968762516975403,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "GDP",
+            "value": 3.51,
+            "shap_contribution": -0.25859248638153076,
+            "action": "Schedule an advisor consultation"
+          },
+          {
+            "feature": "Curricular units 2nd sem (approved)",
+            "value": 6.0,
+            "shap_contribution": -0.2514185905456543,
+            "action": "Schedule tutoring sessions; recommend study groups"
+          }
+        ],
+        "overall_recommendation": "On track: maintain current support level"
+      }
+    ],
+    "whatif_sample": {
+      "student_id": 1384,
+      "baseline_risk": 0.9988237023353577,
+      "scenarios": [
+        {
+          "name": "Academic Support",
+          "description": "Increase 2nd semester grade by +10 and evaluations by +5",
+          "new_risk": 0.9985846281051636,
+          "risk_reduction": 0.0002390742301940918,
+          "reduction_pct": 0.02393557838436457
+        },
+        {
+          "name": "Financial Support",
+          "description": "Set tuition fees up to date and clear debtor status",
+          "new_risk": 0.9971742630004883,
+          "risk_reduction": 0.0016494393348693848,
+          "reduction_pct": 0.1651381851484719
+        },
+        {
+          "name": "Socio-emotional Support",
+          "description": "Increase stress/support-related features by 20% (proxy)",
+          "new_risk": 0.9989030361175537,
+          "risk_reduction": -7.933378219604492e-05,
+          "reduction_pct": -0.007942721224031226
+        }
+      ]
+    },
+    "total_analyzed": 150
+  },
+  "cohort_level": {
+    "course_risk": [
+      {
+        "cohort_type": "Course",
+        "cohort_id": 33,
+        "cohort_name": "Biofuel Production Technologies",
+        "n_students": 2,
+        "priority": "Critical",
+        "avg_dropout_risk": 0.8568815588951111,
+        "recommended_action": "Immediate intervention: assign dedicated advisor and increase TA support"
+      },
+      {
+        "cohort_type": "Course",
+        "cohort_id": 9119,
+        "cohort_name": "Informatics Engineering",
+        "n_students": 37,
+        "priority": "High",
+        "avg_dropout_risk": 0.5274766683578491,
+        "recommended_action": "Increase TA support and monitor weekly"
+      },
+      {
+        "cohort_type": "Course",
+        "cohort_id": 9991,
+        "cohort_name": "Management (evening)",
+        "n_students": 53,
+        "priority": "High",
+        "avg_dropout_risk": 0.5242007970809937,
+        "recommended_action": "Increase TA support and monitor weekly"
+      },
+      {
+        "cohort_type": "Course",
+        "cohort_id": 9003,
+        "cohort_name": "Agronomy",
+        "n_students": 39,
+        "priority": "High",
+        "avg_dropout_risk": 0.47490614652633667,
+        "recommended_action": "Increase TA support and monitor weekly"
+      },
+      {
+        "cohort_type": "Course",
+        "cohort_id": 9130,
+        "cohort_name": "Equinculture",
+        "n_students": 30,
+        "priority": "High",
+        "avg_dropout_risk": 0.41497373580932617,
+        "recommended_action": "Increase TA support and monitor weekly"
+      },
+      {
+        "cohort_type": "Course",
+        "cohort_id": 9853,
+        "cohort_name": "Basic Education",
+        "n_students": 37,
+        "priority": "High",
+        "avg_dropout_risk": 0.40074029564857483,
+        "recommended_action": "Increase TA support and monitor weekly"
+      },
+      {
+        "cohort_type": "Course",
+        "cohort_id": 9773,
+        "cohort_name": "Journalism and Communication",
+        "n_students": 70,
+        "priority": "Medium",
+        "avg_dropout_risk": 0.37335821986198425,
+        "recommended_action": "Monitor closely and provide supplemental resources"
+      },
+      {
+        "cohort_type": "Course",
+        "cohort_id": 8014,
+        "cohort_name": "Social Service (evening)",
+        "n_students": 50,
+        "priority": "Medium",
+        "avg_dropout_risk": 0.37262284755706787,
+        "recommended_action": "Monitor closely and provide supplemental resources"
+      },
+      {
+        "cohort_type": "Course",
+        "cohort_id": 171,
+        "cohort_name": "Animation and Multimedia Design",
+        "n_students": 45,
+        "priority": "Medium",
+        "avg_dropout_risk": 0.3699136972427368,
+        "recommended_action": "Monitor closely and provide supplemental resources"
+      },
+      {
+        "cohort_type": "Course",
+        "cohort_id": 9556,
+        "cohort_name": "Oral Hygiene",
+        "n_students": 15,
+        "priority": "Medium",
+        "avg_dropout_risk": 0.35379430651664734,
+        "recommended_action": "Monitor closely and provide supplemental resources"
+      },
+      {
+        "cohort_type": "Course",
+        "cohort_id": 9147,
+        "cohort_name": "Management",
+        "n_students": 67,
+        "priority": "Medium",
+        "avg_dropout_risk": 0.3473692238330841,
+        "recommended_action": "Monitor closely and provide supplemental resources"
+      },
+      {
+        "cohort_type": "Course",
+        "cohort_id": 9670,
+        "cohort_name": "Advertising and Marketing Management",
+        "n_students": 54,
+        "priority": "Medium",
+        "avg_dropout_risk": 0.2908329665660858,
+        "recommended_action": "Monitor closely and provide supplemental resources"
+      },
+      {
+        "cohort_type": "Course",
+        "cohort_id": 9254,
+        "cohort_name": "Tourism",
+        "n_students": 40,
+        "priority": "Low",
+        "avg_dropout_risk": 0.24721333384513855,
+        "recommended_action": "Maintain current support level"
+      },
+      {
+        "cohort_type": "Course",
+        "cohort_id": 9085,
+        "cohort_name": "Veterinary Nursing",
+        "n_students": 79,
+        "priority": "Low",
+        "avg_dropout_risk": 0.24541978538036346,
+        "recommended_action": "Maintain current support level"
+      },
+      {
+        "cohort_type": "Course",
+        "cohort_id": 9238,
+        "cohort_name": "Social Service",
+        "n_students": 87,
+        "priority": "Low",
+        "avg_dropout_risk": 0.20951195061206818,
+        "recommended_action": "Maintain current support level"
+      },
+      {
+        "cohort_type": "Course",
+        "cohort_id": 9500,
+        "cohort_name": "Nursing",
+        "n_students": 129,
+        "priority": "Low",
+        "avg_dropout_risk": 0.16442838311195374,
+        "recommended_action": "Maintain current support level"
+      },
+      {
+        "cohort_type": "Course",
+        "cohort_id": 9070,
+        "cohort_name": "Communication Design",
+        "n_students": 51,
+        "priority": "Low",
+        "avg_dropout_risk": 0.16442789137363434,
+        "recommended_action": "Maintain current support level"
+      }
+    ],
+    "radar_analysis": {
+      "available_dimensions": [
+        {
+          "dimension_name": "Scholarship",
+          "dimension_id": "scholarship",
+          "feature_column": "Scholarship holder",
+          "group_0_label": "Without Scholarship",
+          "group_1_label": "With Scholarship",
+          "radar_data": {
+            "dimensions": [
+              "Academic Prep",
+              "Current Success",
+              "Engagement",
+              "Financial Stress",
+              "Stability"
+            ],
+            "group_0_values": [
+              0.36,
+              0.37,
+              0.26,
+              0.89,
+              0.29
+            ],
+            "group_1_values": [
+              0.38,
+              0.47,
+              0.26,
+              0.95,
+              0.22
+            ],
+            "differences": [
+              0.02,
+              0.1,
+              0.0,
+              0.06,
+              -0.07
+            ],
+            "interpretation": {
+              "max_diff_dimension": "Current Success",
+              "max_diff_value": 0.1,
+              "stronger_group": "group_1"
+            }
+          }
+        },
+        {
+          "dimension_name": "Gender",
+          "dimension_id": "gender",
+          "feature_column": "Gender",
+          "group_0_label": "Group 0",
+          "group_1_label": "Group 1",
+          "radar_data": {
+            "dimensions": [
+              "Academic Prep",
+              "Current Success",
+              "Engagement",
+              "Financial Stress",
+              "Stability"
+            ],
+            "group_0_values": [
+              0.37,
+              0.43,
+              0.26,
+              0.91,
+              0.25
+            ],
+            "group_1_values": [
+              0.36,
+              0.34,
+              0.25,
+              0.88,
+              0.31
+            ],
+            "differences": [
+              -0.01,
+              -0.09,
+              -0.01,
+              -0.03,
+              0.06
+            ],
+            "interpretation": {
+              "max_diff_dimension": "Current Success",
+              "max_diff_value": -0.09,
+              "stronger_group": "group_0"
+            }
+          }
+        },
+        {
+          "dimension_name": "International",
+          "dimension_id": "international",
+          "feature_column": "International",
+          "group_0_label": "Group 0",
+          "group_1_label": "Group 1",
+          "radar_data": {
+            "dimensions": [
+              "Academic Prep",
+              "Current Success",
+              "Engagement",
+              "Financial Stress",
+              "Stability"
+            ],
+            "group_0_values": [
+              0.37,
+              0.4,
+              0.26,
+              0.9,
+              0.27
+            ],
+            "group_1_values": [
+              0.39,
+              0.4,
+              0.26,
+              0.9,
+              0.29
+            ],
+            "differences": [
+              0.02,
+              0.0,
+              0.0,
+              0.0,
+              0.02
+            ],
+            "interpretation": {
+              "max_diff_dimension": "Academic Prep",
+              "max_diff_value": 0.02,
+              "stronger_group": "group_1"
+            }
+          }
+        }
+      ],
+      "default_dimension": "scholarship"
+    }
+  },
+  "system_level": {
+    "global_risk_factors": [
+      {
+        "rank": 1,
+        "feature": "CR_Sem2",
+        "mean_abs_shap": 0.5711084604263306,
+        "policy_action": "Monitor the factor and evaluate targeted interventions"
+      },
+      {
+        "rank": 2,
+        "feature": "Tuition fees up to date",
+        "mean_abs_shap": 0.3105161786079407,
+        "policy_action": "Establish emergency financial aid funding and improve payment flexibility"
+      },
+      {
+        "rank": 3,
+        "feature": "Curricular units 2nd sem (approved)",
+        "mean_abs_shap": 0.24785466492176056,
+        "policy_action": "Strengthen academic support programs and targeted tutoring"
+      },
+      {
+        "rank": 4,
+        "feature": "CR_Sem1",
+        "mean_abs_shap": 0.21976719796657562,
+        "policy_action": "Monitor the factor and evaluate targeted interventions"
+      },
+      {
+        "rank": 5,
+        "feature": "Course",
+        "mean_abs_shap": 0.1702881157398224,
+        "policy_action": "Monitor the factor and evaluate targeted interventions"
+      },
+      {
+        "rank": 6,
+        "feature": "Unemployment rate",
+        "mean_abs_shap": 0.15074795484542847,
+        "policy_action": "Monitor the factor and evaluate targeted interventions"
+      },
+      {
+        "rank": 7,
+        "feature": "Curricular units 2nd sem (grade)",
+        "mean_abs_shap": 0.13188350200653076,
+        "policy_action": "Strengthen academic support programs and targeted tutoring"
+      },
+      {
+        "rank": 8,
+        "feature": "Gender",
+        "mean_abs_shap": 0.12933114171028137,
+        "policy_action": "Monitor the factor and evaluate targeted interventions"
+      },
+      {
+        "rank": 9,
+        "feature": "Age at enrollment",
+        "mean_abs_shap": 0.12553875148296356,
+        "policy_action": "Monitor the factor and evaluate targeted interventions"
+      },
+      {
+        "rank": 10,
+        "feature": "Admission grade",
+        "mean_abs_shap": 0.11648770421743393,
+        "policy_action": "Strengthen academic support programs and targeted tutoring"
+      }
+    ],
+    "cost_benefit_analysis": {
+      "baseline_dropout_rate": 0.27231638418079096,
+      "total_students": 885,
+      "total_high_risk_students": 204,
+      "scenarios": [
+        {
+          "name": "Financial Aid Program",
+          "description": "Clear debt for 44 high-risk students with debt (subset of 204 high-risk students)",
+          "beneficiaries": 44,
+          "total_cost": 88000,
+          "dropouts_prevented": 13,
+          "cost_per_student_saved": 6769.2307692307695,
+          "new_dropout_rate": 0.2576271186440678
+        },
+        {
+          "name": "Engagement Nudge System",
+          "description": "Proxy boosts to engagement/achievement features (+30%) for all 204 high-risk students",
+          "beneficiaries": 204,
+          "total_cost": 500,
+          "dropouts_prevented": 2,
+          "cost_per_student_saved": 250.0,
+          "new_dropout_rate": 0.27005649717514124
+        }
+      ]
+    },
+    "strategic_recommendations": [
+      {
+        "domain": "Financial Support",
+        "priority": "Critical",
+        "action": "Strengthen financial support pathways"
+      },
+      {
+        "domain": "Academic Support",
+        "priority": "High",
+        "action": "Expand tutoring and academic success programs"
+      }
+    ]
+  }
+}

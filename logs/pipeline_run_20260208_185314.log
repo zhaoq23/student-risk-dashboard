@@ -1,0 +1,19 @@
+2026-02-08 18:53:14 | INFO     | ======================================================================
+2026-02-08 18:53:14 | INFO     | Pipeline started: 2026-02-08 18:53:14
+2026-02-08 18:53:14 | INFO     | ======================================================================
+2026-02-08 18:53:14 | INFO     | Starting Stage 1: Data Quality Assessment and Cleaning
+2026-02-08 18:53:17 | INFO     | Running data quality assessment pipeline...
+2026-02-08 18:53:36 | INFO     | Stage 1 completed (Duration: 22.07s)
+2026-02-08 18:53:36 | INFO     | Starting Stage 2: Feature Engineering
+2026-02-08 18:53:40 | INFO     | Running feature engineering pipeline...
+2026-02-08 18:53:56 | INFO     | Stage 2 completed (Duration: 20.10s)
+2026-02-08 18:53:56 | INFO     | Starting Stage 3: Modeling and Action Plan Generation
+2026-02-08 18:53:56 | ERROR    | Stage 3 failed: No module named 'src.stage3_modeling_action.modeling_engine'
+2026-02-08 18:53:56 | WARNING  | Stage 3 failed. Continue with subsequent stages?
+2026-02-08 18:53:56 | INFO     | Starting Stage 4: Integrated Report Generation
+2026-02-08 18:53:56 | INFO     | Generating integrated report...
+2026-02-08 18:53:57 | ERROR    | Stage 4 failed: Stage 4 output not generated: D:\NewVisions\Edu_app\outputs\reports\final_report.html
+2026-02-08 18:53:57 | WARNING  | Stage 4 failed. Continue with subsequent stages?
+2026-02-08 18:53:57 | INFO     | ======================================================================
+2026-02-08 18:53:57 | INFO     | Pipeline completed. Total duration: 42.40s
+2026-02-08 18:53:57 | INFO     | ======================================================================

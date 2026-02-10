@@ -50,9 +50,11 @@ run_master_pipeline.py          ← One-click execution
 pip install -r requirements.txt
 ```
 
-### 2. Place your data
+### 2. Data
 
-Put the raw dataset in `data/raw/data.csv`. This project uses the [UCI Machine Learning Repository — Predict Students' Dropout and Academic Success](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success) dataset.
+The raw dataset is in `data/raw/data.csv`.
+
+This project utilizes the [Predict Students' Dropout and Academic Success](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success) dataset from the UCI Machine Learning Repository. Originally created to help reduce academic attrition in higher education, this data allows us to demonstrate how machine learning can effectively flag students at risk during their academic journey.
 
 ### 3. Run the full pipeline
 
@@ -67,7 +69,7 @@ That's it. The pipeline will execute all four stages sequentially and produce a 
 ```
 student-success-pipeline/
 │
-├── run_master_pipeline.py            # 🔥 Master entry point
+├── run_master_pipeline.py            # Master entry point
 ├── config.yaml                       # Unified configuration
 ├── requirements.txt                  # Python dependencies
 │
@@ -116,6 +118,4 @@ modeling:
     - lasso
 ```
 
-## Data Source
 
-This project utilizes the [Predict Students' Dropout and Academic Success](https://archive.ics.uci.edu/dataset/697/predict+students+dropout+and+academic+success) dataset from the UCI Machine Learning Repository. Originally created to help reduce academic attrition in higher education, this data allows us to demonstrate how machine learning can effectively flag students at risk during their academic journey.
